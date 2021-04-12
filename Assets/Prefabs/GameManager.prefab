@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8565485079334397158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4293265073088210478}
+  - component: {fileID: 6621451118978143419}
+  - component: {fileID: 114138188147163674}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293265073088210478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565485079334397158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1505252, y: 0.3762077, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6621451118978143419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565485079334397158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9d77f1bf817744796460db86dd1f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  battleActive: 0
+--- !u!114 &114138188147163674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565485079334397158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0eda0dcd2ba8345b2db54b1e7afc48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - Dialog Nika
+  - Found Key
+  - 
+  - In Keller Gehen
+  - Stuhl Setzen
+  - Licht An
+  - Backpulver
+  - Wasser
+  - Schlaf
+  - Mischen
+  - Nichts Passiert
+  - Konigswasser
+  - Phil Streicheln
+  - Zu Phil Gehen
+  - Phil Ende
+  - 
+  - Hoehle
+  - Start
+  - Richtig1
+  - Richtig2
+  - Richtig3
+  - Richtig4
+  - Richtig5
+  - Richtig6
+  - Richtig7
+  - Richtig8
+  - Mellow Gefunden
+  - Ani Fertig
+  - Start Falko
+  - Falko Buch
+  - Buch Gefunden
+  - MC1 Falko
+  - Falsch1 Falko
+  - Richtig1 Falko
+  - MC2 Falko
+  - Richtig2 Falko
+  - MC3 Falko
+  - Finale Falko
+  - Falko Ende
+  - MC1 Falko Act
+  - Hole Korn
+  - MC1 Ole
+  - Falsch1 Ole
+  - Richtig1 Ole
+  - MC2 Ole
+  - Richtig2 Ole
+  - MC3 Ole
+  - Finale Ole
+  - Ole Ende
+  - 
+  - Start Tim
+  - Falsch Tim
+  - Pfannenwender
+  - MC2 Tim
+  - Barett
+  - MC3 Tim
+  - Pudel
+  - Finale Tim
+  - 
+  - MC1 Clemens
+  - Clemens2
+  - Nein Clemens
+  - Nein Clemens2
+  - Ja Clemens
+  - Clemens Richtig0
+  - Clemens Richtig1
+  - Clemens Richtig2-4
+  - Clemens Richtig5
+  - Playlist
+  - Finale Clemens
+  - Clemens Muede
+  - 
+  - MC1 Eric
+  - Richtig1 Eric
+  - MC2 Eric
+  - Richtig2 Eric
+  - Faellt Um 1
+  - Richtig2-1 Eric
+  - MC3 Eric
+  - Richtig3 Eric
+  - MC4 Eric
+  - Richtig4 Eric
+  - MC5 Eric
+  - Richtig5 Eric
+  - Falsch5 Eric
+  - MC6 Eric
+  - Richtig6 Eric
+  - Falsch6 Eric
+  - MC7 Eric
+  - Richtig7 Eric
+  - MC8 Eric
+  - Richtig8 Eric
+  - Falsch8 Eric
+  - Lupe Ziehen
+  - Eric Finale
+  - 
+  - Footprints
+  - Shadow Nadine
+  - Battle1 Nadine
+  - Tiere Act
+  - Finale Christoph
+  - Home
+  - Oder doch nicht
+  - 
+  - Pfannenwender1
+  - Barett1
+  - Pudel1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  questMarkersComplete: 
